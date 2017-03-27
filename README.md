@@ -1,24 +1,11 @@
-# Module 4: Introduction to Git and GitHub
+# Introduction to Git and GitHub
 
-## Overview
 Being able to manage changes to your code and share it with others is one of the most important technical skills a programmer can learn. Unfortunately, a frightening number of people still email their code, have dozens of versions of the same file, and lack a system for backing up their code. This is both time consuming and error prone.
 
 Luckily, there are wonderful tools for tracking changes to your code (git), and for facilitating collaboration (GitHub). Git and GitHub are the industry standards for these family of tasks which we'll refer to as **version control**.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Helpful links:
 
-- [Resources](#resources)
-- [Git](#git)
-- [GitHub](#github)
-  - [Configuration](#configuration)
-  - [Workflow Example](#workflow-example)
-  - [Course Assignments on GitHub](#course-assignments-on-github)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
 - [Try Git](https://try.github.io/levels/1/challenges/1): An interactive tutorial for learning `git`
 - [Git Documentation](https://git-scm.com/documentation)
 - [Setting up git](https://help.github.com/articles/set-up-git/) (with GitHub)
@@ -34,7 +21,7 @@ All of the files in a project directory (referred to as a `repository`, or `repo
 
 Git allows you to roll back to a previous snapshot of your project called a `commit`.  When you want to take a snapshot of your work, you'll need to `add` your the changes to your files to a **staging area**.  You can think of a staging area (literally) like a staging area.  The changes that you want to be included in your next snapshot need to be put on stage in order to be captured by the `commit`.  Each time you take a snapshot (`commit`), you'll need to include a short message that describes the set of changes.  These steps fit together as follows:
 
-![local git process](imgs/local-git-process.png)
+![local git process](m5-imgs/local-git-process.png)
 
 Here is additional information on each (of these) `git` commands (note, this **_is not_** a full list -- see [documentation](https://git-scm.com/docs)):
 
@@ -72,15 +59,15 @@ See [this article](https://help.github.com/articles/set-up-git/) for more inform
 ### Workflow Example
 Here is _one_ example of a workflow you may choose when working with a project. Let's imagine that there's a repository online that you want to use as a starting point for a project (**this is how we will do class/lab exercises**). First, you may want **your own cloud copy** of a repository on GitHub.  To create your own copy, you'll simply click the **fork** button in a GitHub repository:
 
-![fork button on GitHub](imgs/fork.png)
+![fork button on GitHub](m5-imgs/fork.png)
 
 That will create a copy of the **entire repo** on your GitHub account. In order to start working on the files, you'll need to get them on your computer (they're still only in the cloud). To do so, you will clone **your forked repository** (_not_ the original one) to your machine. This will create a local copy of the files **as well as their entire history** on your local machine. We'll use the terminal to clone the repository, but we need to get some information about it first. To get the URL location of the repository, click the **Clone or Download** button, then click on the clipboard icon to copy the URL to your clipboard:
 
-![clone button on GitHub](imgs/clone.png)
+![clone button on GitHub](m5-imgs/clone.png)
 
 Then, on your terminal, you could use the `git clone` command described below.  Here is a diagram of the full process:
 
-![git with github diagram](imgs/full-git-process.png)
+![git with github diagram](m5-imgs/full-git-process.png)
 
 
 Here are additional `git` commands that allow you to interact easily with GitHub:
@@ -105,4 +92,4 @@ Repeat steps 3 - 5 each time you want to make a checkpoint of your work and save
 
 Using git and GitHub can be challenging, and you'll inevitably run into issues. While it's tempting to ignore version control systems, **they will save you time** in the long-run. For now, do your best to follow these processes, and read any error messages carefully. If you run into trouble, try to understand the issue (Google/StackOverflow), and consult other for help.
 
-To practice using these basic commands, see [exercise-1](exercise-1).
+To practice using these basic commands, see [exercise-1](http://github.com/info201-s17/m5-git-intro/tree/master/exercise-1).
