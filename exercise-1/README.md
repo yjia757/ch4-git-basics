@@ -12,7 +12,7 @@ The purpose of this exercise is to practice the steps you'll need to use in futu
   git config --global user.email "YOUR EMAIL"
   ```
 
-2. Fork this repository (`info-201/m4-git-intro`) to your own GitHub account by clicking the `fork` button on the GitHub interface.
+2. Fork this repository (`ch4-git-basics`) to your own GitHub account by clicking the `fork` button on the GitHub interface.
 
   ```bash
   #  Click the `fork` button to fork it to your account
