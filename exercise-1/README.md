@@ -27,7 +27,7 @@ The purpose of this exercise is to practice the steps you'll need to use in futu
   #  Get the URL by clicking the "Clone or Download" button on GitHub, then clicking the clipboard icon
 
   # Clone the repository
-  git clone https://github.com/YOUR-USER-NAME/m4-git-intro
+  git clone https://github.com/YOUR-USER-NAME/ch4-git-basics
   ```
 
 4. On your machine, open up this file (`exercise-1/README.md`) in a text editor of your choice
