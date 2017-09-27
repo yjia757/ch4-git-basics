@@ -18,7 +18,8 @@ The purpose of this exercise is to practice the steps you'll need to use in futu
   #  Click the `fork` button to fork it to your account
   ```
 
-3. Using your terminal, clone **your forked repository** to your machine (make sure you're in the desired directory on your terminal)
+3. Using your terminal, clone **your forked repository** to your
+machine (make sure you're in the desired directory on your terminal)
 
   ```bash
   # Enter a desired directory
