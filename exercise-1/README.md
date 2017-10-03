@@ -26,3 +26,10 @@ breakfast today
 7. Push changes up to GitHub
 
 Fresh Air bhjkm
+
+Avocado
+Oranges
+Nuts
+Sparkeling water 
+
+
